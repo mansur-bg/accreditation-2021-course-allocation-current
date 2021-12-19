@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "academic_session": "2014/2015"
+  },
+  {
+    "id": 2,
+    "academic_session": "2015/2016"
+  },
+  {
+    "id": 3,
+    "academic_session": "2016/2017"
+  },
+  {
+    "id": 4,
+    "academic_session": "2017/2018"
+  },
+  {
+    "id": 5,
+    "academic_session": "2018/2019"
+  },
+  {
+    "id": 6,
+    "academic_session": "2019/2020"
+  },
+  {
+    "id": 7,
+    "academic_session": "2020/2021"
+  }
+]
