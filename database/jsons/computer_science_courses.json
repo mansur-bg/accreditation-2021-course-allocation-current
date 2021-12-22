@@ -1,0 +1,3652 @@
+[
+    {
+        "id": 1,
+        "course_id": 3281,
+        "code": "CSC1211",
+        "title": "Introduction to Information Systems I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 2,
+        "course_id": 3282,
+        "code": "CSC1301",
+        "title": "Mathematics for Computer Studies",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 3,
+        "course_id": 3283,
+        "code": "CSC1303",
+        "title": "Introduction to Computer Science",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 109,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 4,
+        "course_id": 9687,
+        "code": "CSC1311",
+        "title": "Statistics for Physical Sciences and Engineering",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 110,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 5,
+        "course_id": 7463,
+        "code": "CST1302",
+        "title": "Foundation of Web Programming",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 16,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 6,
+        "course_id": 6474,
+        "code": "CST1311",
+        "title": "Introduction to Probability",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 101,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 7,
+        "course_id": 9271,
+        "code": "ECO1203",
+        "title": "Introduction to Statistics I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 9,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 8,
+        "course_id": 3499,
+        "code": "ECO1205",
+        "title": "Introduction to Maths. for Economics I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 5,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 9,
+        "course_id": 1163,
+        "code": "GSP1201",
+        "title": "Use of English",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 116,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 10,
+        "course_id": 7462,
+        "code": "ITC1201",
+        "title": "Fundamentals of ITC",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 10,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 11,
+        "course_id": 9482,
+        "code": "ITC1203",
+        "title": "Fundamentals of IT",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 109,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 12,
+        "course_id": 1534,
+        "code": "MTH1301",
+        "title": "Elementary Mathematics I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 219,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 13,
+        "course_id": 1635,
+        "code": "PHY1170",
+        "title": "Physics Practical I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 2,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 14,
+        "course_id": 1637,
+        "code": "PHY1210",
+        "title": "Mechanics",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 113,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 15,
+        "course_id": 1638,
+        "code": "PHY1220",
+        "title": "Electricity And Magnetism",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 126,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 16,
+        "course_id": 1867,
+        "code": "STA1311",
+        "title": "Probability I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 2,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 17,
+        "course_id": 9483,
+        "code": "SWE1301",
+        "title": "Introduction to Problem Solving and Software Development",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 110,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 18,
+        "course_id": 8721,
+        "code": "CSC2201",
+        "title": "INTRODUCTION TO COMPUTER",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 19,
+        "course_id": 3289,
+        "code": "CSC2203",
+        "title": "Visual Basic Workshop",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 172,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 20,
+        "course_id": 3290,
+        "code": "CSC2211",
+        "title": "Computer System Theory",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 254,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 21,
+        "course_id": 3292,
+        "code": "CSC2233",
+        "title": "Web Programming I",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 199,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 22,
+        "course_id": 3294,
+        "code": "CSC2241",
+        "title": "Multimedia Techniques",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 39,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 23,
+        "course_id": 3295,
+        "code": "CSC2251",
+        "title": "Computer Programming & applications I",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 5,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 24,
+        "course_id": 8055,
+        "code": "CSC2253",
+        "title": "Data Structures and Algorithms",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 201,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 25,
+        "course_id": 3291,
+        "code": "CSC2321",
+        "title": "Introduction to Discrete Mathematics",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 167,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 26,
+        "course_id": 5931,
+        "code": "CSS2311",
+        "title": "Application Packages",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 27,
+        "course_id": 3507,
+        "code": "ECO2205",
+        "title": "Element of statistics I",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 12,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 28,
+        "course_id": 3508,
+        "code": "ECO2207",
+        "title": "Principles of Finance",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 29,
+        "course_id": 9326,
+        "code": "ECO2301",
+        "title": "Micro Economics",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 23,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 30,
+        "course_id": 1164,
+        "code": "GSP2201",
+        "title": "Use of English",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 39,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 31,
+        "course_id": 1168,
+        "code": "GSP2204",
+        "title": "Foundation Of Nigerian Culture, Government and Economy",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 145,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 32,
+        "course_id": 6796,
+        "code": "GSP2206",
+        "title": "Peace Studies and Conflict Resolution",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 169,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 33,
+        "course_id": 3304,
+        "code": "CSC3211",
+        "title": "Introduction to System Software",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 5,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 34,
+        "course_id": 3310,
+        "code": "CSC3212",
+        "title": "Introduction to Parallel Programming",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 6,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 35,
+        "course_id": 3307,
+        "code": "CSC3221",
+        "title": "Internet Security",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 385,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 36,
+        "course_id": 3309,
+        "code": "CSC3242",
+        "title": "Information Systems I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 342,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 37,
+        "course_id": 9480,
+        "code": "CSC3251",
+        "title": "Research Methods",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 329,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 38,
+        "course_id": 9479,
+        "code": "CSC3301",
+        "title": "Java Workshop I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 322,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 39,
+        "course_id": 2463,
+        "code": "CSC3302",
+        "title": "Java Workshop",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 13,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 40,
+        "course_id": 9478,
+        "code": "CSC3303",
+        "title": "Numerical Analysis",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 290,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 41,
+        "course_id": 6476,
+        "code": "CSC3313",
+        "title": "Fundamentals of Programming",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 42,
+        "course_id": 2465,
+        "code": "CSC3321",
+        "title": "Internet Security",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 2,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 43,
+        "course_id": 3305,
+        "code": "CSC3341",
+        "title": "Fundamentals of Networking & Communications",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 380,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 44,
+        "course_id": 2468,
+        "code": "CSC3342",
+        "title": "Information Systems I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 2,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 45,
+        "course_id": 9477,
+        "code": "CSC3343",
+        "title": "Operating Systems",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 352,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 46,
+        "course_id": 9476,
+        "code": "CSC3351",
+        "title": "Database Management Systems",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 356,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 47,
+        "course_id": 3518,
+        "code": "ECO3203",
+        "title": "Applied Statistics I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 37,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 48,
+        "course_id": 3517,
+        "code": "ECO3301",
+        "title": "Intermediate Microeconomics",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 31,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 49,
+        "course_id": 7884,
+        "code": "EEP3201",
+        "title": "Entrepreneurship and Innovation",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 266,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 50,
+        "course_id": 8046,
+        "code": "EEP3204",
+        "title": "ENTERPRENUESHIP",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 51,
+        "course_id": 2699,
+        "code": "SWE3301",
+        "title": "Software Engineering",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 301,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 52,
+        "course_id": 3306,
+        "code": "SWE3301/4301",
+        "title": "Software Engineering",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 4,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 53,
+        "course_id": 9686,
+        "code": "CSC4203",
+        "title": "Concepts of Programming Languages",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 223,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 54,
+        "course_id": 3318,
+        "code": "CSC4211",
+        "title": "Advances in Mobile Technology",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 295,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 55,
+        "course_id": 3313,
+        "code": "CSC4221",
+        "title": "Computer Graphics I",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 266,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 56,
+        "course_id": 3320,
+        "code": "CSC4252",
+        "title": "Research Methods",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 64,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 57,
+        "course_id": 9484,
+        "code": "CSC4303",
+        "title": "Operations Research",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 272,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 58,
+        "course_id": 9685,
+        "code": "CSC4305",
+        "title": "Introduction to Parallel Programming",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 203,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 59,
+        "course_id": 5279,
+        "code": "CSC4331",
+        "title": "Artificial Inteligence",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 277,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 60,
+        "course_id": 3316,
+        "code": "CSC4341",
+        "title": "Operating Systems",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 95,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 61,
+        "course_id": 3317,
+        "code": "CSC4351",
+        "title": "Database Management Systems",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 95,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 62,
+        "course_id": 5802,
+        "code": "ECO4203",
+        "title": "Econometric Analysis I",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 16,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 63,
+        "course_id": 5806,
+        "code": "ECO4213",
+        "title": "Banking and Finance",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 5,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 64,
+        "course_id": 3530,
+        "code": "ECO4301",
+        "title": "Advanced Microeconomics",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 21,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 65,
+        "course_id": 9688,
+        "code": "CBS1202",
+        "title": "Fundamentals of Cyber Security I",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 105,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 66,
+        "course_id": 3288,
+        "code": "CSC1213",
+        "title": "Introduction to Open Source Applications",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 3,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 67,
+        "course_id": 3285,
+        "code": "CSC1222",
+        "title": "Introduction to Application Packages",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 3,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 68,
+        "course_id": 3287,
+        "code": "CSC1226",
+        "title": "Foundation of Web Programming",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 4,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 69,
+        "course_id": 3284,
+        "code": "CSC1302",
+        "title": "Introduction to Computer Programming",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 5,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 70,
+        "course_id": 7465,
+        "code": "CST1222",
+        "title": "Ethics in Computing",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 15,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 71,
+        "course_id": 7466,
+        "code": "CST1301",
+        "title": "Introduction to Application packages",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 111,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 72,
+        "course_id": 7464,
+        "code": "CST1304",
+        "title": "Introduction to Computer Programming",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 141,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 73,
+        "course_id": 9319,
+        "code": "ECO1202",
+        "title": "Economic Theory and Principles II",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 7,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 74,
+        "course_id": 3502,
+        "code": "ECO1204",
+        "title": "Introduction to Statistics II",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 5,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 75,
+        "course_id": 3503,
+        "code": "ECO1206",
+        "title": "Introduction to Maths. for Economics II",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 6,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 76,
+        "course_id": 1167,
+        "code": "GSP1202",
+        "title": "Use of Library, Study Skills and ICT",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 109,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 77,
+        "course_id": 1536,
+        "code": "MTH1303",
+        "title": "Elementary Mathematics III",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 165,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 78,
+        "course_id": 1636,
+        "code": "PHY1180",
+        "title": "Physics Practical II",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 2,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 79,
+        "course_id": 1639,
+        "code": "PHY1230",
+        "title": "Behaviour Of Matter",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 116,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 80,
+        "course_id": 3302,
+        "code": "CSC2202",
+        "title": "Computer Programming & applications II (Data Structures)",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 15,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 81,
+        "course_id": 8054,
+        "code": "CSC2204",
+        "title": "Analysis of Algorithms",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 175,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 82,
+        "course_id": 3296,
+        "code": "CSC2212",
+        "title": "C++ Workshop",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 210,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 83,
+        "course_id": 3300,
+        "code": "CSC2214",
+        "title": "Human-Computer Interactions",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 110,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 84,
+        "course_id": 3298,
+        "code": "CSC2222",
+        "title": "Computer Scientist & Society",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 15,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 85,
+        "course_id": 3297,
+        "code": "CSC2224",
+        "title": "Introduction to System Analysis and Design",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 129,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 86,
+        "course_id": 3293,
+        "code": "CSC2231",
+        "title": "Computer Architecture",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 203,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 87,
+        "course_id": 9481,
+        "code": "CSC2234",
+        "title": "Web Programming II",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 123,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 88,
+        "course_id": 3299,
+        "code": "CSC2242",
+        "title": "Introduction to Communications Technology",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 12,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 89,
+        "course_id": 3301,
+        "code": "CSC2252",
+        "title": "Elementary Number Theory",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 185,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 90,
+        "course_id": 3513,
+        "code": "ECO2206",
+        "title": "Element of Statistics II",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 17,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 91,
+        "course_id": 3515,
+        "code": "ECO2212",
+        "title": "Monetary Economics",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 16,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 92,
+        "course_id": 9337,
+        "code": "ECO2302",
+        "title": "Macro Economics",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 20,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 93,
+        "course_id": 1165,
+        "code": "GSP2202",
+        "title": "Use of Library, Study Skills & ICT",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 33,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 94,
+        "course_id": 6795,
+        "code": "GSP2205",
+        "title": "Logic and Pholosophy",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 127,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 95,
+        "course_id": 8050,
+        "code": "CSC3200",
+        "title": "Minor Project",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 321,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 96,
+        "course_id": 6475,
+        "code": "CSC3312",
+        "title": "Application Packages II",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 34,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 97,
+        "course_id": 3303,
+        "code": "CSC3331",
+        "title": "Upgrading and Maintaining PCs",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 27,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 98,
+        "course_id": 3312,
+        "code": "CSC3400",
+        "title": "Minor Project",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 99,
+        "course_id": 8049,
+        "code": "CSC3402",
+        "title": "SIWES",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 277,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 100,
+        "course_id": 8051,
+        "code": "CSS3200",
+        "title": "Internship",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 41,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 101,
+        "course_id": 3525,
+        "code": "ECO3204",
+        "title": "Applied Statistics II",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 30,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 102,
+        "course_id": 3529,
+        "code": "ECO3214",
+        "title": "Environmental Economics",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 103,
+        "course_id": 3524,
+        "code": "ECO3302",
+        "title": "Intermediate Macroeconomics",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 26,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 104,
+        "course_id": 3319,
+        "code": "CSC4212",
+        "title": "Computer Graphics II",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 273,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 105,
+        "course_id": 3322,
+        "code": "CSC4232",
+        "title": "Advanced Networking & Communication Techniques",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 354,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 106,
+        "course_id": 8048,
+        "code": "CSC4301",
+        "title": "Introduction to Cloud Computing",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 169,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 107,
+        "course_id": 8053,
+        "code": "CSC4316",
+        "title": "Data Mining",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 152,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 108,
+        "course_id": 5280,
+        "code": "CSC4322",
+        "title": "Cryptography and Cryptanalysis",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 330,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 109,
+        "course_id": 3323,
+        "code": "CSC4600",
+        "title": "Major Project",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 141,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 110,
+        "course_id": 5808,
+        "code": "ECO4204",
+        "title": "Econometric Analysis II",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 4,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 111,
+        "course_id": 5809,
+        "code": "ECO4206",
+        "title": "Managerial Economics",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 5,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 112,
+        "course_id": 3531,
+        "code": "ECO4302",
+        "title": "Advanced Macroeconomics",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 20,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 113,
+        "course_id": 7886,
+        "code": "EEP4201",
+        "title": "Venture Creation and Growth",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 272,
+        "academic_session": "2018/2019"
+    },
+    {
+        "id": 114,
+        "course_id": 3281,
+        "code": "CSC1211",
+        "title": "Introduction to Information Systems I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 115,
+        "course_id": 3283,
+        "code": "CSC1303",
+        "title": "Introduction to Computer Science",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 87,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 116,
+        "course_id": 9687,
+        "code": "CSC1311",
+        "title": "Statistics for Physical Sciences and Engineering",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 85,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 117,
+        "course_id": 7463,
+        "code": "CST1302",
+        "title": "Foundation of Web Programming",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 5,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 118,
+        "course_id": 6474,
+        "code": "CST1311",
+        "title": "Introduction to Probability",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 41,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 119,
+        "course_id": 9271,
+        "code": "ECO1203",
+        "title": "Introduction to Statistics I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 5,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 120,
+        "course_id": 3499,
+        "code": "ECO1205",
+        "title": "Introduction to Maths. for Economics I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 121,
+        "course_id": 1163,
+        "code": "GSP1201",
+        "title": "Use of English",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 93,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 122,
+        "course_id": 7462,
+        "code": "ITC1201",
+        "title": "Fundamentals of ITC",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 3,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 123,
+        "course_id": 9482,
+        "code": "ITC1203",
+        "title": "Fundamentals of IT",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 86,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 124,
+        "course_id": 1534,
+        "code": "MTH1301",
+        "title": "Elementary Mathematics I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 133,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 125,
+        "course_id": 1637,
+        "code": "PHY1210",
+        "title": "Mechanics",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 90,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 126,
+        "course_id": 1638,
+        "code": "PHY1220",
+        "title": "Electricity And Magnetism",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 91,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 127,
+        "course_id": 9483,
+        "code": "SWE1301",
+        "title": "Introduction to Problem Solving and Software Development",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 92,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 128,
+        "course_id": 3289,
+        "code": "CSC2203",
+        "title": "Visual Basic Workshop",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 18,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 129,
+        "course_id": 3290,
+        "code": "CSC2211",
+        "title": "Computer System Theory",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 179,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 130,
+        "course_id": 3292,
+        "code": "CSC2233",
+        "title": "Web Programming I",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 23,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 131,
+        "course_id": 3294,
+        "code": "CSC2241",
+        "title": "Multimedia Techniques",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 132,
+        "course_id": 3295,
+        "code": "CSC2251",
+        "title": "Computer Programming & applications I",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 5,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 133,
+        "course_id": 8055,
+        "code": "CSC2253",
+        "title": "Data Structures and Algorithms",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 181,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 134,
+        "course_id": 3291,
+        "code": "CSC2321",
+        "title": "Introduction to Discrete Mathematics",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 65,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 135,
+        "course_id": 9880,
+        "code": "CSC2323",
+        "title": "Discrete Structures",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 124,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 136,
+        "course_id": 3507,
+        "code": "ECO2205",
+        "title": "Element of statistics I",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 4,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 137,
+        "course_id": 9326,
+        "code": "ECO2301",
+        "title": "Micro Economics",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 3,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 138,
+        "course_id": 1164,
+        "code": "GSP2201",
+        "title": "Use of English",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 31,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 139,
+        "course_id": 1168,
+        "code": "GSP2204",
+        "title": "Foundation Of Nigerian Culture, Government and Economy",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 131,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 140,
+        "course_id": 6796,
+        "code": "GSP2206",
+        "title": "Peace Studies and Conflict Resolution",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 133,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 141,
+        "course_id": 9879,
+        "code": "ITC2201",
+        "title": "Introduction to Web Computing",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 125,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 142,
+        "course_id": 1542,
+        "code": "MTH2301",
+        "title": "Mathematical Methods",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 122,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 143,
+        "course_id": 9692,
+        "code": "SWE2301",
+        "title": "Introduction to Software Engineering",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 123,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 144,
+        "course_id": 9878,
+        "code": "SWE2313",
+        "title": "Computer Programming I",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 124,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 145,
+        "course_id": 9888,
+        "code": "CBS3205",
+        "title": "Cryptographic Techniques",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 96,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 146,
+        "course_id": 9886,
+        "code": "CSC3201",
+        "title": "Compiler Construction I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 99,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 147,
+        "course_id": 9887,
+        "code": "CSC3205",
+        "title": "Computer Architecture and Organization II",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 98,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 148,
+        "course_id": 3304,
+        "code": "CSC3211",
+        "title": "Introduction to System Software",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 149,
+        "course_id": 3310,
+        "code": "CSC3212",
+        "title": "Introduction to Parallel Programming",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 150,
+        "course_id": 3307,
+        "code": "CSC3221",
+        "title": "Internet Security",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 74,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 151,
+        "course_id": 3309,
+        "code": "CSC3242",
+        "title": "Information Systems I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 36,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 152,
+        "course_id": 9480,
+        "code": "CSC3251",
+        "title": "Research Methods",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 147,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 153,
+        "course_id": 9479,
+        "code": "CSC3301",
+        "title": "Java Workshop I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 96,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 154,
+        "course_id": 2463,
+        "code": "CSC3302",
+        "title": "Java Workshop",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 2,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 155,
+        "course_id": 9478,
+        "code": "CSC3303",
+        "title": "Numerical Analysis",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 125,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 156,
+        "course_id": 9882,
+        "code": "CSC3307",
+        "title": "Computational Science and Numerical Methods",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 97,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 157,
+        "course_id": 9884,
+        "code": "CSC3309",
+        "title": "Operating Systems II",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 2,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 158,
+        "course_id": 3305,
+        "code": "CSC3341",
+        "title": "Fundamentals of Networking & Communications",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 156,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 159,
+        "course_id": 9477,
+        "code": "CSC3343",
+        "title": "Operating Systems",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 161,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 160,
+        "course_id": 9476,
+        "code": "CSC3351",
+        "title": "Database Management Systems",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 41,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 161,
+        "course_id": 3518,
+        "code": "ECO3203",
+        "title": "Applied Statistics I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 9,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 162,
+        "course_id": 3517,
+        "code": "ECO3301",
+        "title": "Intermediate Microeconomics",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 21,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 163,
+        "course_id": 7884,
+        "code": "EEP3201",
+        "title": "Entrepreneurship and Innovation",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 261,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 164,
+        "course_id": 9883,
+        "code": "ITC3303",
+        "title": "Data Communications and Networking",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 96,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 165,
+        "course_id": 9885,
+        "code": "ITC3305",
+        "title": "Database Management Systems",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 97,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 166,
+        "course_id": 2699,
+        "code": "SWE3301",
+        "title": "Software Engineering",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 118,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 167,
+        "course_id": 3306,
+        "code": "SWE3301/4301",
+        "title": "Software Engineering",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 168,
+        "course_id": 9881,
+        "code": "SWE3311",
+        "title": "Object-Oriented Programming",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 91,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 169,
+        "course_id": 9686,
+        "code": "CSC4203",
+        "title": "Concepts of Programming Languages",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 46,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 170,
+        "course_id": 3318,
+        "code": "CSC4211",
+        "title": "Advances in Mobile Technology",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 47,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 171,
+        "course_id": 3313,
+        "code": "CSC4221",
+        "title": "Computer Graphics I",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 274,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 172,
+        "course_id": 3315,
+        "code": "CSC4231",
+        "title": "Artificial Intelligence",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 2,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 173,
+        "course_id": 3320,
+        "code": "CSC4252",
+        "title": "Research Methods",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 6,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 174,
+        "course_id": 9484,
+        "code": "CSC4303",
+        "title": "Operations Research",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 305,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 175,
+        "course_id": 9685,
+        "code": "CSC4305",
+        "title": "Introduction to Parallel Programming",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 234,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 176,
+        "course_id": 5279,
+        "code": "CSC4331",
+        "title": "Artificial Inteligence",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 309,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 177,
+        "course_id": 3316,
+        "code": "CSC4341",
+        "title": "Operating Systems",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 11,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 178,
+        "course_id": 3317,
+        "code": "CSC4351",
+        "title": "Database Management Systems",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 11,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 179,
+        "course_id": 5802,
+        "code": "ECO4203",
+        "title": "Econometric Analysis I",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 2,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 180,
+        "course_id": 3530,
+        "code": "ECO4301",
+        "title": "Advanced Microeconomics",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 28,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 181,
+        "course_id": 9895,
+        "code": "ITC4204",
+        "title": "Mobile Application Development",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 251,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 182,
+        "course_id": 9944,
+        "code": "SWE4201",
+        "title": "Software Configuration Management and Maintenance",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 183,
+        "course_id": 9930,
+        "code": "SWE4203",
+        "title": "Project Management",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 3,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 184,
+        "course_id": 9894,
+        "code": "SWE4209",
+        "title": "Concepts of Programming Languages",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 244,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 185,
+        "course_id": 9688,
+        "code": "CBS1202",
+        "title": "Fundamentals of Cyber Security I",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 110,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 186,
+        "course_id": 3288,
+        "code": "CSC1213",
+        "title": "Introduction to Open Source Applications",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 2,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 187,
+        "course_id": 3287,
+        "code": "CSC1226",
+        "title": "Foundation of Web Programming",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 188,
+        "course_id": 3284,
+        "code": "CSC1302",
+        "title": "Introduction to Computer Programming",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 4,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 189,
+        "course_id": 7465,
+        "code": "CST1222",
+        "title": "Ethics in Computing",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 14,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 190,
+        "course_id": 7466,
+        "code": "CST1301",
+        "title": "Introduction to Application packages",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 87,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 191,
+        "course_id": 7464,
+        "code": "CST1304",
+        "title": "Introduction to Computer Programming",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 43,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 192,
+        "course_id": 3502,
+        "code": "ECO1204",
+        "title": "Introduction to Statistics II",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 2,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 193,
+        "course_id": 3503,
+        "code": "ECO1206",
+        "title": "Introduction to Maths. for Economics II",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 194,
+        "course_id": 1167,
+        "code": "GSP1202",
+        "title": "Use of Library, Study Skills and ICT",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 92,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 195,
+        "course_id": 1535,
+        "code": "MTH1302",
+        "title": "Elementary Mathematics II",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 84,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 196,
+        "course_id": 1536,
+        "code": "MTH1303",
+        "title": "Elementary Mathematics III",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 168,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 197,
+        "course_id": 1636,
+        "code": "PHY1180",
+        "title": "Physics Practical II",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 198,
+        "course_id": 1639,
+        "code": "PHY1230",
+        "title": "Behaviour Of Matter",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 13,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 199,
+        "course_id": 9890,
+        "code": "SWE1304",
+        "title": "Introduction to Computer Programming",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 85,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 200,
+        "course_id": 3302,
+        "code": "CSC2202",
+        "title": "Computer Programming & applications II (Data Structures)",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 4,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 201,
+        "course_id": 8054,
+        "code": "CSC2204",
+        "title": "Analysis of Algorithms",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 190,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 202,
+        "course_id": 9893,
+        "code": "CSC2206",
+        "title": "Computer Architecture and Organization I",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 123,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 203,
+        "course_id": 9962,
+        "code": "CSC2208",
+        "title": "Computer Hardware",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 121,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 204,
+        "course_id": 9900,
+        "code": "CSC2210",
+        "title": "Operating Systems I",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 120,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 205,
+        "course_id": 3296,
+        "code": "CSC2212",
+        "title": "C++ Workshop",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 161,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 206,
+        "course_id": 3300,
+        "code": "CSC2214",
+        "title": "Human-Computer Interactions",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 27,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 207,
+        "course_id": 3298,
+        "code": "CSC2222",
+        "title": "Computer Scientist & Society",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 2,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 208,
+        "course_id": 3297,
+        "code": "CSC2224",
+        "title": "Introduction to System Analysis and Design",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 46,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 209,
+        "course_id": 3293,
+        "code": "CSC2231",
+        "title": "Computer Architecture",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 62,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 210,
+        "course_id": 9481,
+        "code": "CSC2234",
+        "title": "Web Programming II",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 53,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 211,
+        "course_id": 3299,
+        "code": "CSC2242",
+        "title": "Introduction to Communications Technology",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 212,
+        "course_id": 3301,
+        "code": "CSC2252",
+        "title": "Elementary Number Theory",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 99,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 213,
+        "course_id": 3513,
+        "code": "ECO2206",
+        "title": "Element of Statistics II",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 3,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 214,
+        "course_id": 3515,
+        "code": "ECO2212",
+        "title": "Monetary Economics",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 9,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 215,
+        "course_id": 9337,
+        "code": "ECO2302",
+        "title": "Macro Economics",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 3,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 216,
+        "course_id": 1165,
+        "code": "GSP2202",
+        "title": "Use of Library, Study Skills & ICT",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 27,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 217,
+        "course_id": 6795,
+        "code": "GSP2205",
+        "title": "Logic and Pholosophy",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 163,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 218,
+        "course_id": 9731,
+        "code": "SWE2204",
+        "title": "Human Computer Interaction",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 124,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 219,
+        "course_id": 9891,
+        "code": "SWE2314",
+        "title": "Computer Programming II",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 119,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 220,
+        "course_id": 9892,
+        "code": "SWE2315",
+        "title": "System Analysis and Design",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 123,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 221,
+        "course_id": 8050,
+        "code": "CSC3200",
+        "title": "Minor Project",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 8,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 222,
+        "course_id": 6475,
+        "code": "CSC3312",
+        "title": "Application Packages II",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 8,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 223,
+        "course_id": 3303,
+        "code": "CSC3331",
+        "title": "Upgrading and Maintaining PCs",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 12,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 224,
+        "course_id": 8049,
+        "code": "CSC3402",
+        "title": "SIWES",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 225,
+        "course_id": 3311,
+        "code": "CSC3600",
+        "title": "SIWES",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 101,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 226,
+        "course_id": 3525,
+        "code": "ECO3204",
+        "title": "Applied Statistics II",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 12,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 227,
+        "course_id": 3524,
+        "code": "ECO3302",
+        "title": "Intermediate Macroeconomics",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 18,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 228,
+        "course_id": 9940,
+        "code": "SWE3600",
+        "title": "SIWES",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 2,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 229,
+        "course_id": 3319,
+        "code": "CSC4212",
+        "title": "Computer Graphics II",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 289,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 230,
+        "course_id": 3322,
+        "code": "CSC4232",
+        "title": "Advanced Networking & Communication Techniques",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 285,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 231,
+        "course_id": 8048,
+        "code": "CSC4301",
+        "title": "Introduction to Cloud Computing",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 24,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 232,
+        "course_id": 8053,
+        "code": "CSC4316",
+        "title": "Data Mining",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 163,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 233,
+        "course_id": 5280,
+        "code": "CSC4322",
+        "title": "Cryptography and Cryptanalysis",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 329,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 234,
+        "course_id": 3323,
+        "code": "CSC4600",
+        "title": "Major Project",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 122,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 235,
+        "course_id": 3531,
+        "code": "ECO4302",
+        "title": "Advanced Macroeconomics",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 32,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 236,
+        "course_id": 7886,
+        "code": "EEP4201",
+        "title": "Venture Creation and Growth",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 277,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 237,
+        "course_id": 9898,
+        "code": "ITC4344",
+        "title": "Cloud Computing",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 142,
+        "academic_session": "2019/2020"
+    },
+    {
+        "id": 238,
+        "course_id": 3282,
+        "code": "CSC1301",
+        "title": "Mathematics for Computer Studies",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 3,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 239,
+        "course_id": 3283,
+        "code": "CSC1303",
+        "title": "Introduction to Computer Science",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 73,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 240,
+        "course_id": 10196,
+        "code": "CSC1305",
+        "title": "General Chemistry",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 74,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 241,
+        "course_id": 9687,
+        "code": "CSC1311",
+        "title": "Statistics for Physical Sciences and Engineering",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 82,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 242,
+        "course_id": 7463,
+        "code": "CST1302",
+        "title": "Foundation of Web Programming",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 4,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 243,
+        "course_id": 6474,
+        "code": "CST1311",
+        "title": "Introduction to Probability",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 15,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 244,
+        "course_id": 9271,
+        "code": "ECO1203",
+        "title": "Introduction to Statistics I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 3,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 245,
+        "course_id": 3499,
+        "code": "ECO1205",
+        "title": "Introduction to Maths. for Economics I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 246,
+        "course_id": 1163,
+        "code": "GSP1201",
+        "title": "Use of English",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 79,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 247,
+        "course_id": 9482,
+        "code": "ITC1203",
+        "title": "Fundamentals of IT",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 248,
+        "course_id": 1534,
+        "code": "MTH1301",
+        "title": "Elementary Mathematics I",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 111,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 249,
+        "course_id": 9814,
+        "code": "MTH1305",
+        "title": "Mathematics for Health Sciences",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 250,
+        "course_id": 1637,
+        "code": "PHY1210",
+        "title": "Mechanics",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 87,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 251,
+        "course_id": 1638,
+        "code": "PHY1220",
+        "title": "Electricity And Magnetism",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 86,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 252,
+        "course_id": 9483,
+        "code": "SWE1301",
+        "title": "Introduction to Problem Solving and Software Development",
+        "level": 1,
+        "semester": 1,
+        "registered_students": 81,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 253,
+        "course_id": 3289,
+        "code": "CSC2203",
+        "title": "Visual Basic Workshop",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 7,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 254,
+        "course_id": 3290,
+        "code": "CSC2211",
+        "title": "Computer System Theory",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 17,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 255,
+        "course_id": 3292,
+        "code": "CSC2233",
+        "title": "Web Programming I",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 8,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 256,
+        "course_id": 8055,
+        "code": "CSC2253",
+        "title": "Data Structures and Algorithms",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 144,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 257,
+        "course_id": 10198,
+        "code": "CSC2301",
+        "title": "Foundations of Sequential Program",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 96,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 258,
+        "course_id": 3291,
+        "code": "CSC2321",
+        "title": "Introduction to Discrete Mathematics",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 38,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 259,
+        "course_id": 9880,
+        "code": "CSC2323",
+        "title": "Discrete Structures",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 148,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 260,
+        "course_id": 3507,
+        "code": "ECO2205",
+        "title": "Element of statistics I",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 3,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 261,
+        "course_id": 9326,
+        "code": "ECO2301",
+        "title": "Micro Economics",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 2,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 262,
+        "course_id": 1164,
+        "code": "GSP2201",
+        "title": "Use of English",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 22,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 263,
+        "course_id": 1168,
+        "code": "GSP2204",
+        "title": "Foundation Of Nigerian Culture, Government and Economy",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 99,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 264,
+        "course_id": 6796,
+        "code": "GSP2206",
+        "title": "Peace Studies and Conflict Resolution",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 97,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 265,
+        "course_id": 9879,
+        "code": "ITC2201",
+        "title": "Introduction to Web Computing",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 117,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 266,
+        "course_id": 1542,
+        "code": "MTH2301",
+        "title": "Mathematical Methods",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 124,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 267,
+        "course_id": 9692,
+        "code": "SWE2301",
+        "title": "Introduction to Software Engineering",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 10,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 268,
+        "course_id": 9878,
+        "code": "SWE2313",
+        "title": "Computer Programming I",
+        "level": 2,
+        "semester": 1,
+        "registered_students": 114,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 269,
+        "course_id": 9888,
+        "code": "CBS3205",
+        "title": "Cryptographic Techniques",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 10,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 270,
+        "course_id": 9886,
+        "code": "CSC3201",
+        "title": "Compiler Construction I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 115,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 271,
+        "course_id": 9887,
+        "code": "CSC3205",
+        "title": "Computer Architecture and Organization II",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 7,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 272,
+        "course_id": 3310,
+        "code": "CSC3212",
+        "title": "Introduction to Parallel Programming",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 273,
+        "course_id": 3307,
+        "code": "CSC3221",
+        "title": "Internet Security",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 14,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 274,
+        "course_id": 3309,
+        "code": "CSC3242",
+        "title": "Information Systems I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 6,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 275,
+        "course_id": 9480,
+        "code": "CSC3251",
+        "title": "Research Methods",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 116,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 276,
+        "course_id": 9479,
+        "code": "CSC3301",
+        "title": "Java Workshop I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 50,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 277,
+        "course_id": 3308,
+        "code": "CSC3302/4302",
+        "title": "Java Workshop",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 278,
+        "course_id": 9478,
+        "code": "CSC3303",
+        "title": "Numerical Analysis",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 36,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 279,
+        "course_id": 10204,
+        "code": "CSC3305",
+        "title": "Organisation of Programming Languages",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 117,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 280,
+        "course_id": 9882,
+        "code": "CSC3307",
+        "title": "Computational Science and Numerical Methods",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 117,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 281,
+        "course_id": 9884,
+        "code": "CSC3309",
+        "title": "Operating Systems II",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 113,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 282,
+        "course_id": 2465,
+        "code": "CSC3321",
+        "title": "Internet Security",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 2,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 283,
+        "course_id": 3305,
+        "code": "CSC3341",
+        "title": "Fundamentals of Networking & Communications",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 41,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 284,
+        "course_id": 9477,
+        "code": "CSC3343",
+        "title": "Operating Systems",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 22,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 285,
+        "course_id": 9476,
+        "code": "CSC3351",
+        "title": "Database Management Systems",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 6,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 286,
+        "course_id": 3518,
+        "code": "ECO3203",
+        "title": "Applied Statistics I",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 5,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 287,
+        "course_id": 3517,
+        "code": "ECO3301",
+        "title": "Intermediate Microeconomics",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 5,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 288,
+        "course_id": 7884,
+        "code": "EEP3201",
+        "title": "Entrepreneurship and Innovation",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 131,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 289,
+        "course_id": 9883,
+        "code": "ITC3303",
+        "title": "Data Communications and Networking",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 120,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 290,
+        "course_id": 9889,
+        "code": "ITC3304",
+        "title": "Web Application Development",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 116,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 291,
+        "course_id": 9885,
+        "code": "ITC3305",
+        "title": "Database Management Systems",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 116,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 292,
+        "course_id": 2699,
+        "code": "SWE3301",
+        "title": "Software Engineering",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 16,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 293,
+        "course_id": 3306,
+        "code": "SWE3301/4301",
+        "title": "Software Engineering",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 294,
+        "course_id": 9881,
+        "code": "SWE3311",
+        "title": "Object-Oriented Programming",
+        "level": 3,
+        "semester": 1,
+        "registered_students": 124,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 295,
+        "course_id": 3314,
+        "code": "CSC4201",
+        "title": "Introduction to Cloud Computing",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 296,
+        "course_id": 9686,
+        "code": "CSC4203",
+        "title": "Concepts of Programming Languages",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 6,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 297,
+        "course_id": 3318,
+        "code": "CSC4211",
+        "title": "Advances in Mobile Technology",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 4,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 298,
+        "course_id": 3313,
+        "code": "CSC4221",
+        "title": "Computer Graphics I",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 38,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 299,
+        "course_id": 3315,
+        "code": "CSC4231",
+        "title": "Artificial Intelligence",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 300,
+        "course_id": 3320,
+        "code": "CSC4252",
+        "title": "Research Methods",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 301,
+        "course_id": 9484,
+        "code": "CSC4303",
+        "title": "Operations Research",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 86,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 302,
+        "course_id": 9685,
+        "code": "CSC4305",
+        "title": "Introduction to Parallel Programming",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 58,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 303,
+        "course_id": 9896,
+        "code": "CSC4307",
+        "title": "Special Topics in Computer Science",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 84,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 304,
+        "course_id": 5279,
+        "code": "CSC4331",
+        "title": "Artificial Inteligence",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 161,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 305,
+        "course_id": 3317,
+        "code": "CSC4351",
+        "title": "Database Management Systems",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 3,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 306,
+        "course_id": 3530,
+        "code": "ECO4301",
+        "title": "Advanced Microeconomics",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 16,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 307,
+        "course_id": 9895,
+        "code": "ITC4204",
+        "title": "Mobile Application Development",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 137,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 308,
+        "course_id": 9930,
+        "code": "SWE4203",
+        "title": "Project Management",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 89,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 309,
+        "course_id": 9897,
+        "code": "SWE4205",
+        "title": "Structured Programming",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 88,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 310,
+        "course_id": 9894,
+        "code": "SWE4209",
+        "title": "Concepts of Programming Languages",
+        "level": 4,
+        "semester": 1,
+        "registered_students": 132,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 311,
+        "course_id": 9688,
+        "code": "CBS1202",
+        "title": "Fundamentals of Cyber Security I",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 79,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 312,
+        "course_id": 3288,
+        "code": "CSC1213",
+        "title": "Introduction to Open Source Applications",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 313,
+        "course_id": 3287,
+        "code": "CSC1226",
+        "title": "Foundation of Web Programming",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 2,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 314,
+        "course_id": 3284,
+        "code": "CSC1302",
+        "title": "Introduction to Computer Programming",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 6,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 315,
+        "course_id": 10197,
+        "code": "CSC1304",
+        "title": "General Biology",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 3,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 316,
+        "course_id": 7465,
+        "code": "CST1222",
+        "title": "Ethics in Computing",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 4,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 317,
+        "course_id": 7466,
+        "code": "CST1301",
+        "title": "Introduction to Application packages",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 76,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 318,
+        "course_id": 7464,
+        "code": "CST1304",
+        "title": "Introduction to Computer Programming",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 19,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 319,
+        "course_id": 9319,
+        "code": "ECO1202",
+        "title": "Economic Theory and Principles II",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 320,
+        "course_id": 1167,
+        "code": "GSP1202",
+        "title": "Use of Library, Study Skills and ICT",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 76,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 321,
+        "course_id": 1535,
+        "code": "MTH1302",
+        "title": "Elementary Mathematics II",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 104,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 322,
+        "course_id": 1536,
+        "code": "MTH1303",
+        "title": "Elementary Mathematics III",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 129,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 323,
+        "course_id": 1639,
+        "code": "PHY1230",
+        "title": "Behaviour Of Matter",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 4,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 324,
+        "course_id": 9890,
+        "code": "SWE1304",
+        "title": "Introduction to Computer Programming",
+        "level": 1,
+        "semester": 2,
+        "registered_students": 85,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 325,
+        "course_id": 3302,
+        "code": "CSC2202",
+        "title": "Computer Programming & applications II (Data Structures)",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 3,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 326,
+        "course_id": 8054,
+        "code": "CSC2204",
+        "title": "Analysis of Algorithms",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 146,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 327,
+        "course_id": 9893,
+        "code": "CSC2206",
+        "title": "Computer Architecture and Organization I",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 101,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 328,
+        "course_id": 9962,
+        "code": "CSC2208",
+        "title": "Computer Hardware",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 100,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 329,
+        "course_id": 9900,
+        "code": "CSC2210",
+        "title": "Operating Systems I",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 99,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 330,
+        "course_id": 3296,
+        "code": "CSC2212",
+        "title": "C++ Workshop",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 51,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 331,
+        "course_id": 3300,
+        "code": "CSC2214",
+        "title": "Human-Computer Interactions",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 16,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 332,
+        "course_id": 3297,
+        "code": "CSC2224",
+        "title": "Introduction to System Analysis and Design",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 28,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 333,
+        "course_id": 3293,
+        "code": "CSC2231",
+        "title": "Computer Architecture",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 7,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 334,
+        "course_id": 9481,
+        "code": "CSC2234",
+        "title": "Web Programming II",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 14,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 335,
+        "course_id": 3301,
+        "code": "CSC2252",
+        "title": "Elementary Number Theory",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 24,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 336,
+        "course_id": 656,
+        "code": "CSC2320",
+        "title": "Programming In C++",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 337,
+        "course_id": 3513,
+        "code": "ECO2206",
+        "title": "Element of Statistics II",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 3,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 338,
+        "course_id": 3515,
+        "code": "ECO2212",
+        "title": "Monetary Economics",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 339,
+        "course_id": 9337,
+        "code": "ECO2302",
+        "title": "Macro Economics",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 3,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 340,
+        "course_id": 1165,
+        "code": "GSP2202",
+        "title": "Use of Library, Study Skills & ICT",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 24,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 341,
+        "course_id": 6795,
+        "code": "GSP2205",
+        "title": "Logic and Pholosophy",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 112,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 342,
+        "course_id": 9731,
+        "code": "SWE2204",
+        "title": "Human Computer Interaction",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 101,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 343,
+        "course_id": 9891,
+        "code": "SWE2314",
+        "title": "Computer Programming II",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 100,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 344,
+        "course_id": 9892,
+        "code": "SWE2315",
+        "title": "System Analysis and Design",
+        "level": 2,
+        "semester": 2,
+        "registered_students": 100,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 345,
+        "course_id": 8050,
+        "code": "CSC3200",
+        "title": "Minor Project",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 346,
+        "course_id": 6475,
+        "code": "CSC3312",
+        "title": "Application Packages II",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 2,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 347,
+        "course_id": 3303,
+        "code": "CSC3331",
+        "title": "Upgrading and Maintaining PCs",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 2,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 348,
+        "course_id": 10205,
+        "code": "CST3600",
+        "title": "SIWES",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 117,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 349,
+        "course_id": 3525,
+        "code": "ECO3204",
+        "title": "Applied Statistics II",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 3,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 350,
+        "course_id": 3524,
+        "code": "ECO3302",
+        "title": "Intermediate Macroeconomics",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 4,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 351,
+        "course_id": 9929,
+        "code": "ITC3600",
+        "title": "SIWES",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 1,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 352,
+        "course_id": 9940,
+        "code": "SWE3600",
+        "title": "SIWES",
+        "level": 3,
+        "semester": 2,
+        "registered_students": 2,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 353,
+        "course_id": 3319,
+        "code": "CSC4212",
+        "title": "Computer Graphics II",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 56,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 354,
+        "course_id": 3322,
+        "code": "CSC4232",
+        "title": "Advanced Networking & Communication Techniques",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 55,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 355,
+        "course_id": 8048,
+        "code": "CSC4301",
+        "title": "Introduction to Cloud Computing",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 2,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 356,
+        "course_id": 10206,
+        "code": "CSC4302",
+        "title": "Net-Centric Computing",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 89,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 357,
+        "course_id": 10207,
+        "code": "CSC4304",
+        "title": "Data Management II",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 89,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 358,
+        "course_id": 10208,
+        "code": "CSC4306",
+        "title": "Distributed Computing System",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 87,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 359,
+        "course_id": 10209,
+        "code": "CSC4308",
+        "title": "Computer Graphics and Visualization",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 12,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 360,
+        "course_id": 8053,
+        "code": "CSC4316",
+        "title": "Data Mining",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 66,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 361,
+        "course_id": 5280,
+        "code": "CSC4322",
+        "title": "Cryptography and Cryptanalysis",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 67,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 362,
+        "course_id": 3323,
+        "code": "CSC4600",
+        "title": "Major Project",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 89,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 363,
+        "course_id": 3531,
+        "code": "ECO4302",
+        "title": "Advanced Macroeconomics",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 11,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 364,
+        "course_id": 7886,
+        "code": "EEP4201",
+        "title": "Venture Creation and Growth",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 125,
+        "academic_session": "2020/2021"
+    },
+    {
+        "id": 365,
+        "course_id": 9898,
+        "code": "ITC4344",
+        "title": "Cloud Computing",
+        "level": 4,
+        "semester": 2,
+        "registered_students": 125,
+        "academic_session": "2020/2021"
+    }
+]

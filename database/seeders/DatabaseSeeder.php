@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\ComputerScienceCourse;
 use App\Models\StudentRegisteredCourse;
 use Illuminate\Database\Seeder;
 
@@ -17,6 +18,7 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
         $this->call(AcademicSessionSeeder::class);
         $this->call(CourseSeeder::class);
+        $this->call(ComputerScienceCourseSeeder::class);
         $this->call(StudentSeeder::class);
         $this->call(StudentProfileSeeder::class);
         $this->call(StudentRegisteredCourseSeeder::class);

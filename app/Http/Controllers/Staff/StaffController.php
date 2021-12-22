@@ -16,6 +16,16 @@ use Spatie\Image\Manipulations;
 
 class StaffController extends Controller
 {
+    public function initials(string $name): ?string
+    {
+        $words = explode(" ", $name);
+        $initials = null;
+        foreach ($words as $w) {
+            $initials .= $w[0];
+        }
+        return $initials; //JB
+    }
+
     public function index(){
 
         $staff = DB::select("select staff_number, trim(concat(title,' ', name)) as staff_name, initials, phone_number, email, photo, status, `rank`, qualifications, specialisation, created_at, updated_at, deleted_at from staff order by id");
@@ -50,7 +60,109 @@ class StaffController extends Controller
                 ->make(true);
 
         }
-        return view('accreditation.staff.staff.index', compact('staff'));
+
+        $controls=[
+            0 => [
+                'label'=>'Staff Number',
+                'name'=>'staff_number',
+                'value'=>'',
+                'control' => 'text',
+            ],
+            1 => [
+                'label'=>'Title',
+                'name'=>'title',
+                'value'=>'',
+                'control' => 'select',
+                'options' => [
+                    'Professor',
+                    'Dr.',
+                ]
+            ],
+            2 => [
+                'label'=>'Name',
+                'name'=>'name',
+                'value'=>'',
+                'control' => 'text',
+            ],
+            3 => [
+                'label'=>'Rank',
+                'name'=>'rank',
+                'value'=>'',
+                'control' => 'select',
+                'options' => [
+                    'Professor',
+                    'Associate Professor',
+                    'Senior Lecturer',
+                    'Lecturer I',
+                    'Lecturer II',
+                    'Assistant Lecturer',
+                    'Graduate Assistant',
+                ]
+            ],
+            4 => [
+                'label'=>'Phone Number',
+                'name'=>'phone_number',
+                'value'=>'',
+                'control' => 'text',
+            ],
+            5 => [
+                'label'=>'Email',
+                'name'=>'email',
+                'value'=>'',
+                'control' => 'text',
+            ],
+            6 => [
+                'label'=>'Status',
+                'name'=>'status',
+                'value'=>'',
+                'control' => 'select',
+                'options' => [
+                    'Full Time',
+                    'Associate Lecturer'
+                ]
+            ],
+            7 => [
+                'label'=>'Qualifications',
+                'name'=>'qualifications',
+                'value'=>'',
+                'control' => 'text',
+            ],
+            8 => [
+                'label'=>'Specialisation',
+                'name'=>'specialisation',
+                'value'=>'',
+                'control' => 'text',
+            ],
+        ];
+
+        return view('accreditation.staff.staff.index', compact('staff', 'controls'));
+    }
+
+    public function store(StaffRequest $request){
+        $validator = $request->validator;
+//        dd($validator);
+        if ($validator->fails()) {
+            return response()->json(['error' => $validator->getMessageBag()->toArray(),]);
+        }
+
+        $data = $request->all();
+        $data['staff_number'] = 'P100/'.str_replace('P100/','', str_pad($data['staff_number'],4,'0',STR_PAD_LEFT));
+        $data['password'] = $data['staff_number'];
+        $data['cadre'] = 'Academic';
+        $data['username']=$data['email'];
+        $data['photo']='no-image.jpg';
+        $data['initials'] = $this->initials($data['name']);
+        DB::beginTransaction();
+        try {
+            $staff = \App\Models\Staff::create($data);
+            DB::commit();
+        } catch (\Throwable $e) {
+            DB::rollback();
+//            throw $e;
+            dd($e);
+        }
+
+        return response()->json(['success' => 'New Staff record successfully added']);
     }
 
     public function photo(PhotoRequest $request, Staff $staff)

@@ -24,7 +24,7 @@ class CreateStaffTable extends Migration
             $table->string('username')->unique();
             $table->string('password')->nullable();
             $table->boolean('is_default_password')->default(1);
-            $table->string('photo')->nullable();
+            $table->string('photo')->default('no-image.jpg');
             $table->string('status')->nullable();
             $table->string('rank')->nullable();
             $table->string('qualifications')->nullable();

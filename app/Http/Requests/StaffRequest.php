@@ -8,6 +8,7 @@ use Illuminate\Validation\ValidationException;
 
 class StaffRequest extends FormRequest
 {
+    public $validator = null;
     /**
      * Determine if the user is authorized to make this request.
      *
@@ -56,13 +57,20 @@ class StaffRequest extends FormRequest
         ];
     }
 
+    protected function failedValidation(Validator|\Illuminate\Contracts\Validation\Validator $validator)
+    {
+        $this->validator = $validator;
+    }
+
 //    protected function failedValidation(Validator|\Illuminate\Contracts\Validation\Validator $validator)
 //    {
-//        $response = response()->json(['error' => $validator->errors()]);
+//        if($this->method == 'store') {
+//            $response = response()->json(['error' => $validator->errors()]);
 //
-//        throw (new ValidationException($validator, $response))
-//            ->errorBag($this->errorBag)
-//            ->redirectTo($this->getRedirectUrl());
+//            throw (new ValidationException($validator, $response))
+//                ->errorBag($this->errorBag)
+//                ->redirectTo($this->getRedirectUrl());
+//        }
 //    }
 
 }
