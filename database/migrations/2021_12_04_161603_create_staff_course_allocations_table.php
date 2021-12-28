@@ -26,6 +26,7 @@ class CreateStaffCourseAllocationsTable extends Migration
             $table->foreign('staff_id')->references('id')->on('staff');
             $table->foreign('course_code')->references('code')->on('courses');
             $table->foreign('academic_session')->references('academic_session')->on('academic_sessions');
+            $table->unique(['staff_id','course_code','academic_session'],'unique_staff_allocation');
         });
     }
 

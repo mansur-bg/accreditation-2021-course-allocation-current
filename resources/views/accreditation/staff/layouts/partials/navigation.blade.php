@@ -26,14 +26,26 @@
 {{--                @endif--}}
                 <li>
                     <a href="{{route('staff.dashboard')}}">
-                        <i class="fa fa-dashboard font-25"></i><span> Dashboard</span>
+                        <i class="fad fa-dashboard font-25"></i><span> Dashboard</span>
                     </a>
                 </li>
 
                 @if(Auth::guard('staff')->user()->isAdmin())
                     <li>
                         <a href="{{route('staff.staff.index')}}">
-                            <i class="fa fa-users font-25"></i><span> Staff</span>
+                            <i class="fad fa-users font-25"></i><span> Staff</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="{{route('staff.courses.index')}}">
+                            <i class="fad fa-books font-25"></i><span> Courses</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="{{route('staff.allocate-courses.index')}}">
+                            <i class="fad fa-atom-alt font-25"></i><span> Allocate Courses</span>
                         </a>
                     </li>
                 @endif
@@ -50,7 +62,7 @@
                     <a href="{{ route('staff.logout') }}"
                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                        <i class="fa fa-sign-out font-25"></i><span> Logout</span>
+                        <i class="fad fa-sign-out font-25"></i><span> Logout</span>
                     </a>
 
 {{--                    <a href="{{route('staff.logout')}}">--}}

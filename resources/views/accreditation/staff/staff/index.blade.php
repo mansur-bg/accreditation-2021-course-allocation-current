@@ -57,7 +57,7 @@
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleLargeModalLabel">Add Staff</h5>
+                        <h5 class="modal-title" id="exampleLargeModalLabel"><i class="fa fa-user-plus"></i> Add Staff</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -76,7 +76,7 @@
 {{--                                        </div>--}}
                                         <div class="col-12">
                                             <div class="card-body">
-                                                <h5 class="card-title font-18"> Add Staff</h5>
+{{--                                                <h5 class="card-title font-18"> Add Staff</h5>--}}
 
                                     @foreach($controls as $control)
                                         <div class="form-group row">
@@ -118,7 +118,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="far fa-close font-16"></i> Close</button>
 {{--                        <button type="button" class="btn btn-primary">Save changes</button>--}}
                         <button type="button" id="btn_add_staff" name="btn_add_staff" class="btn btn-primary"><i class="far fa-save font-16"></i> Save</button>
                     </div>
@@ -179,7 +179,7 @@
                 } ],
 
                 // "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
-                "lengthMenu": [[25, 50, 75, 100, -1], [25, 50, 75, 100, "All"]],
+                "lengthMenu": [[50, 75, 100, -1], [50, 75, 100, "All"]],
             });
         // });
         $('#btn_add_staff').click(function () {

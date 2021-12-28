@@ -54,7 +54,7 @@
 {{--                        <ul class="list-inline mb-0">--}}
                             <li class="list-inline-item">
                                                         <div class="font-weight-bold">
-                                                            CS BUK Course Allocation Management
+                                                            CS BUK Course Allocation Management [{{$registration_data_date}}]
                                                         </div>
                                                     </li>
 {{--                        </ul>--}}
