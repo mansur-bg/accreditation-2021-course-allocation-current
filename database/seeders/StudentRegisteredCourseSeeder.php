@@ -28,7 +28,7 @@ class StudentRegisteredCourseSeeder extends Seeder
 //                    \App\Models\StudentRegisteredCourse::insert($item);
 //                }
 
-        $registered_courses = DB::connection('mybuk_ug')->select(query: "select tblstdreg.* from tblstdreg inner join (tblstudents) on (tblstudents.regno=tblstdreg.regno and tblstudents.programme_id=60 and tblstdreg.academic_session in ('2018/2019', '2019/2020', '2020/2021'))");
+        $registered_courses = DB::connection('mybuk_ug')->select(query: "select tblstdreg.* from tblstdreg inner join (tblstudents) on (tblstudents.regno=tblstdreg.regno and tblstudents.programme_id=60 and tblstdreg.academic_session in ('2017/2018','2018/2019', '2019/2020', '2020/2021'))");
 
         $data = json_decode(json_encode($registered_courses), TRUE);
         foreach ($data as $item) {

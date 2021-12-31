@@ -30,6 +30,10 @@ Route::group(['middleware' => ['auth:staff']], function () {
     Route::get('/staff/{staff}/edit', [App\Http\Controllers\Staff\StaffController::class, 'edit'])->name('staff.edit')->middleware('signed');
     Route::patch('/staff/{staff}', [App\Http\Controllers\Staff\StaffController::class, 'update'])->name('staff.update')->middleware('signed');
 
+    Route::get('/allocate-letters', [App\Http\Controllers\Staff\CourseAllocationLetterController::class, 'index'])->name('allocate-letters.index');
+    Route::get('/generate-allocate-letters', [App\Http\Controllers\Staff\CourseAllocationLetterController::class, 'generateAllocationLetters'])->name('allocate-letters.generate');
+    Route::get('/generate-individual-allocate-letters', [App\Http\Controllers\Staff\CourseAllocationLetterController::class, 'generateIndividualAllocationLetters'])->name('individual-allocate-letters.generate');
+
     Route::post('logout', [App\Http\Controllers\Staff\LogoutController::class, 'index'])->name('logout');
 });
 

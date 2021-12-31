@@ -48,6 +48,12 @@
                             <i class="fad fa-atom-alt font-25"></i><span> Allocate Courses</span>
                         </a>
                     </li>
+
+                    <li>
+                        <a href="{{route('staff.allocate-letters.index')}}">
+                            <i class="fad fa-file-contract font-25"></i><span> Allocation Letters</span>
+                        </a>
+                    </li>
                 @endif
 
                 <li>

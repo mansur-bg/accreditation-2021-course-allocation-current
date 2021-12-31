@@ -16,7 +16,6 @@ class CourseController extends Controller
 {
     public function index(){
         if (request()->ajax()) {
-
 //            $data = DB::select("select id, course_id, code, title, level, semester, registered_students, academic_session, '' lecturers, created_at, updated_at, deleted_at from computer_science_courses");
 //            $data = DB::select("select computer_science_courses.id, computer_science_courses.course_id, computer_science_courses.code, computer_science_courses.title, computer_science_courses.level, computer_science_courses.semester, computer_science_courses.registered_students, computer_science_courses.academic_session, group_concat(trim(concat('<span class=\'badge badge-primary font-12\'>', staff.title,' ', staff.name,'</span>')) separator ', ') lecturers from computer_science_courses inner join (staff, staff_course_allocations) on (staff.id=staff_course_allocations.staff_id and staff_course_allocations.course_code=computer_science_courses.code and computer_science_courses.academic_session=staff_course_allocations.academic_session) group by staff_course_allocations.course_code, staff_course_allocations.academic_session");
             $data = DB::select("select academic_sessions.id as academic_session_id, computer_science_courses.id, computer_science_courses.course_id, computer_science_courses.code, computer_science_courses.title, computer_science_courses.level, computer_science_courses.semester, computer_science_courses.registered_students, computer_science_courses.academic_session, group_concat(trim(concat(staff.title,' ', staff.name,',',staff.id)) separator '; ') staff_names, group_concat(staff.id separator '; ') staff_ids from computer_science_courses inner join (staff, staff_course_allocations, academic_sessions) on (staff.id=staff_course_allocations.staff_id and staff_course_allocations.course_code=computer_science_courses.code and computer_science_courses.academic_session=staff_course_allocations.academic_session and academic_sessions.academic_session=staff_course_allocations.academic_session) group by staff_course_allocations.course_code, staff_course_allocations.academic_session order by staff_course_allocations.academic_session desc, computer_science_courses.level, computer_science_courses.semester, staff_course_allocations.course_code");
@@ -68,13 +67,10 @@ class CourseController extends Controller
 //                })
                 ->rawColumns(['action','lecturers'])
                 ->make(true);
-
         }
 
         return view('accreditation.staff.courses.index');
     }
-
-
 
     public function show(ComputerScienceCourse $course){
         $data = 'otpauth://totp/test?secret=B3JX4VCVJDVNXNZ5&issuer=chillerlan.net';

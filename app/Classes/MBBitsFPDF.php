@@ -306,6 +306,8 @@ class MBBitsFPDF extends Fpdf
     var $href; // Current URL
     var $TagHref; // URL for a cell
 
+    var $angle=0;
+
     // Public Functions
 
     function WriteTag($w, $h, $txt, $border=0, $align="J", $fill=false, $padding=0)
@@ -443,7 +445,8 @@ class MBBitsFPDF extends Fpdf
         else
         {
             reset($this->PileStyle);
-            while(list($k,$val)=each($this->PileStyle))
+//            while(list($k,$val)=each($this->PileStyle))
+            foreach($this->PileStyle as $k => $val)
             {
                 $val=trim($val);
                 if($this->TagStyle[$val]['family']!="") {
@@ -462,8 +465,9 @@ class MBBitsFPDF extends Fpdf
             $italic=false;
             $underline=false;
             reset($this->PileStyle);
-            while(list($k,$val)=each($this->PileStyle))
-            {
+//            while(list($k,$val)=each($this->PileStyle))
+            foreach($this->PileStyle as $k => $val)
+                {
                 $val=trim($val);
                 $style1=strtoupper($this->TagStyle[$val]['style']);
                 if($style1=="N")
@@ -492,7 +496,8 @@ class MBBitsFPDF extends Fpdf
         else
         {
             reset($this->PileStyle);
-            while(list($k,$val)=each($this->PileStyle))
+//            while(list($k,$val)=each($this->PileStyle))
+            foreach($this->PileStyle as $k => $val)
             {
                 $val=trim($val);
                 if($this->TagStyle[$val]['size']!=0) {
@@ -508,7 +513,8 @@ class MBBitsFPDF extends Fpdf
         else
         {
             reset($this->PileStyle);
-            while(list($k,$val)=each($this->PileStyle))
+//            while(list($k,$val)=each($this->PileStyle))
+            foreach($this->PileStyle as $k => $val)
             {
                 $val=trim($val);
                 if($this->TagStyle[$val]['color']!="") {
@@ -545,7 +551,12 @@ class MBBitsFPDF extends Fpdf
             if(preg_match("/(.+) (.+)='(.+)'/",$regs[2])) {
                 $tab1=preg_split("/ +/",$regs[2]);
                 $tab[2]=trim($tab1[0]);
-                while(list($i,$couple)=each($tab1))
+
+                //            while(list($k,$val)=each($this->PileStyle))
+//                foreach($this->PileStyle as $k => $val)
+
+//                while(list($i,$couple)=each($tab1))
+                foreach($tab1 as $i => $couple)
                 {
                     if($i>0) {
                         $tab2=explode("=",$couple);
@@ -671,7 +682,8 @@ class MBBitsFPDF extends Fpdf
             $this->DoStyle(0);
         }
 
-        if(count($this->NextLineBegin)>0) {
+        //        if(count($this->NextLineBegin)>0) { REPLACE
+        if(count((array)$this->NextLineBegin)>0) {
             $this->Line2Print[0]=$this->NextLineBegin['text'];
             $this->StringLength[0]=$this->NextLineBegin['length'];
             $this->NextLineBegin=array();
@@ -847,6 +859,111 @@ class MBBitsFPDF extends Fpdf
     {
         $this->_putextgstates();
         parent::_putresources();
+    }
+
+
+    ///////////// Begin watermarkImage //////////////////////////
+    function watermarkImage($SourceFile, $WaterMarkText, $DestinationFile, $w, $h)
+    {
+        list($width, $height) = getimagesize($SourceFile);
+        $width1 = $w;
+        $height1 = $h;
+        $image_p = imagecreatetruecolor($width1, $height1);
+        $image = imagecreatefromjpeg($SourceFile);
+        //imagescale($image,300, 300);
+        imagecopyresized($image_p, $image, 0, 0, 0, 0, $width1, $height1, $width, $height);
+
+        //imagecolortransparent($image_p, $black);
+        $font = './font/helvetica-extracompressed.ttf';
+//        $font = asset('assets/fonts/helvetica-extracompressed.ttf');
+        //$font = './font/arial.ttf';
+        $font_size = 50;
+
+        $black = imagecolorallocatealpha($image_p, 0, 0, 0, 40);
+        $white = imagecolorallocatealpha($image_p, 255, 255, 255, 40);
+
+        imagettftext($image_p, $font_size, 0, 50, $height1 - 10, $black, $font, $WaterMarkText);
+
+        imagettftext($image_p, $font_size, 0, 52, $height1 - 15, $white, $font, $WaterMarkText);
+        if ($DestinationFile <> '') {
+            imagejpeg($image_p, $DestinationFile, 100);
+        } else {
+            header('Content-Type: image/jpeg');
+            imagejpeg($image_p, null, 100);
+        };
+        imagedestroy($image);
+        imagedestroy($image_p);
+    }
+    ///////////// End watermarkImage ////////////////////////////
+
+    function Rotate($angle,$x=-1,$y=-1)
+    {
+        if($x==-1)
+            $x=$this->x;
+        if($y==-1)
+            $y=$this->y;
+        if($this->angle!=0)
+            $this->_out('Q');
+        $this->angle=$angle;
+        if($angle!=0)
+        {
+            $angle*=M_PI/180;
+            $c=cos($angle);
+            $s=sin($angle);
+            $cx=$x*$this->k;
+            $cy=($this->h-$y)*$this->k;
+            $this->_out(sprintf('q %.5F %.5F %.5F %.5F %.2F %.2F cm 1 0 0 1 %.2F %.2F cm',$c,$s,-$s,$c,$cx,$cy,-$cx,-$cy));
+        }
+    }
+
+    function RotatedText($x, $y, $txt, $angle)
+    {
+        //Text rotated around its origin
+        $this->Rotate($angle, $x, $y);
+        $this->Text($x, $y, $txt);
+        $this->Rotate(0);
+    }
+
+    function MultiCellBltArray($w, $h, $blt_array, $border=0, $align='J', $fill=false)
+    {
+        if (!is_array($blt_array))
+        {
+            die('MultiCellBltArray requires an array with the following keys: bullet,margin,text,indent,spacer');
+            exit;
+        }
+
+        //Save x
+        $bak_x = $this->x;
+
+        for ($i=0; $i<sizeof($blt_array['text']); $i++)
+        {
+            //Get bullet width including margin
+            $blt_width = $this->GetStringWidth($blt_array['bullet'] . $blt_array['margin'])+$this->cMargin*2;
+
+            // SetX
+            $this->SetX($bak_x);
+
+            //Output indent
+            if ($blt_array['indent'] > 0)
+                $this->Cell($blt_array['indent']);
+
+            //Output bullet
+            $this->Cell($blt_width,$h,$blt_array['bullet'] . $blt_array['margin'],0,'',$fill);
+
+            //Output text
+            $this->MultiCell($w-$blt_width,$h,$blt_array['text'][$i],$border,$align,$fill);
+
+            //Insert a spacer between items if not the last item
+            if ($i != sizeof($blt_array['text'])-1)
+                $this->Ln($blt_array['spacer']);
+
+            //Increment bullet if it's a number
+            if (is_numeric($blt_array['bullet']))
+                $blt_array['bullet']++;
+        }
+
+        //Restore x
+        $this->x = $bak_x;
     }
 
 }

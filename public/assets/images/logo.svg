@@ -22,9 +22,9 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:snap-text-baseline="true"
-     inkscape:zoom="13.335938"
-     inkscape:cx="45.141183"
-     inkscape:cy="17.771529"
+     inkscape:zoom="9.546875"
+     inkscape:cx="64"
+     inkscape:cy="20.006547"
      inkscape:window-width="1920"
      inkscape:window-height="992"
      inkscape:window-x="-8"
@@ -152,7 +152,7 @@
      y="34.793205"
      id="text6355"><tspan
        sodipodi:role="line"
-       id="tspan6353"></tspan></text>
+       id="tspan6353" /></text>
   <text
      xml:space="preserve"
      style="font-size:29.3333px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
@@ -160,7 +160,7 @@
      y="19.946104"
      id="text10554"><tspan
        sodipodi:role="line"
-       id="tspan10552"></tspan></text>
+       id="tspan10552" /></text>
   <text
      xml:space="preserve"
      style="font-size:29.3333px;line-height:1.25;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
@@ -173,7 +173,7 @@
        y="30.893967" /></text>
   <text
      xml:space="preserve"
-     style="font-size:29.3333px;line-height:1.25;font-family:Muli;-inkscape-font-specification:Muli;opacity:1;stroke:url(#radialGradient31805);stroke-opacity:1;fill:#0080ff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round"
+     style="font-size:29.3333px;line-height:1.25;font-family:Muli;-inkscape-font-specification:Muli;opacity:1;fill:#0080ff;fill-opacity:1;stroke:url(#radialGradient31805);stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      x="41.691856"
      y="28.344465"
      id="text22158"><tspan
@@ -181,5 +181,5 @@
        id="tspan22156"
        x="41.691856"
        y="28.344465"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:url(#radialGradient31805);stroke-opacity:1;fill:#0080ff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round">Babagana</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Bernard MT Condensed';-inkscape-font-specification:'Bernard MT Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0080ff;fill-opacity:1;stroke:url(#radialGradient31805);stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">CSAllocate</tspan></text>
 </svg>

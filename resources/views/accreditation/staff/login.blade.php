@@ -23,7 +23,7 @@
                                     <form action="{{route('staff.login.post')}}" method="post">
                                         @csrf
                                         <div class="form-head mb-4" style="text-align: center">
-                                            <a href="{{route('staff.index')}}" class="logo"><img src="{{asset('assets/images/logo.svg')}}" class="img-fluid" alt="logo"></a>
+                                            <a href="{{route('staff.index')}}" class="logo"><img src="{{asset('assets/images/logo.png')}}" class="img-fluid" alt="logo"></a>
                                         </div>
                                         <h4 class="text-primary  mb-4" style="text-align: center"><i class="fa fa-sign-in"></i> Log in</h4>
                                         <div class="form-group">
