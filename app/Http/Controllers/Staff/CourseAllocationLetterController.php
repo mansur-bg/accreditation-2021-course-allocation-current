@@ -19,6 +19,7 @@ class CourseAllocationLetterController extends Controller
     }
 
     public function generateAllocationLetters(){
+        ini_set('max_execution_time', 60*10);
 
 //        $data = DB::select("select staff.staff_number, trim(concat(staff.title, ' ', staff.name)) as lecturer, group_concat(distinct trim(concat(staff2.title, ' ', staff2.name)) separator ', ') as co_lecturers, courses.code, courses.title, courses.credit, staff_course_allocations.academic_session  from staff_course_allocations inner join (staff, courses, student_registered_courses) on (staff.id=staff_course_allocations.staff_id and courses.code=staff_course_allocations.course_code and student_registered_courses.ccode=staff_course_allocations.course_code) left join ( staff_course_allocations as allo2, staff as staff2) on (allo2.staff_id=staff2.id and staff_course_allocations.staff_id<>allo2.staff_id and staff_course_allocations.academic_session=allo2.academic_session and staff_course_allocations.course_code=allo2.course_code) group by staff_course_allocations.staff_id,staff_course_allocations.course_code, staff_course_allocations.academic_session order by staff_course_allocations.academic_session, staff_course_allocations.staff_id");
         if (Cache::has('generate_allocation_letters_data')) {
@@ -46,13 +47,31 @@ class CourseAllocationLetterController extends Controller
         include_once(app_path() . '/Classes/MBBitsPhpQrCode.php');
 
         $directory = "Allocation-Letters/PerSession/";
-        $background_mb = public_path('assets/images/accreditation_letters/background_mb.png');
+//        $background_mb = public_path('assets/images/accreditation_letters/background_mb.png');
         $background_iy = public_path('assets/images/accreditation_letters/background_iy.png');
         $background_hak = public_path('assets/images/accreditation_letters/background_hak.png');
         $semester_text = [
             0=>'',
             1=>'First',
             2=>'Second',
+        ];
+
+        $academic_session_variables = [
+            '2018/2019' => [
+              'background' => $background_iy,
+              'date' => (new Carbon('2019-03-11'))->format('l, jS \\of F, Y'),
+              'hod' => 'Dr. Ibrahim Yusuf'
+            ],
+            '2019/2020' => [
+                'background' => $background_iy,
+                'date' => (new Carbon('2020-01-12'))->format('l, jS \\of F, Y'),
+                'hod' => 'Dr. Ibrahim Yusuf'
+            ],
+            '2020/2021' => [
+                'background' => $background_hak,
+                'date' => (new Carbon('2021-11-01'))->format('l, jS \\of F, Y'),
+                'hod' => 'Dr. Habeebah Adamu Kakudi'
+            ],
         ];
 
         foreach ($allocations as $academic_session => $allocation) {
@@ -91,9 +110,12 @@ class CourseAllocationLetterController extends Controller
             $pdf->SetStyle("p", "times", "", $fontsize1, "0,0,0", 0);
             $pdf->SetStyle("pc", "times", "", $fontsize1, "255,0,0", 0);
 
-            $date = (new Carbon('2021-10-01'))->format('l, jS \\of F, Y');
-            $background = $background_hak;
-            $hod = "Dr. Habeebah Adamu Kakudi";
+//            $date = (new Carbon('2021-10-01'))->format('l, jS \\of F, Y');
+            $date = $academic_session_variables[$academic_session]['date'];
+//            $background = $background_hak;
+            $background = $academic_session_variables[$academic_session]['background'];
+//            $hod = "Dr. Habeebah Adamu Kakudi";
+            $hod = $academic_session_variables[$academic_session]['hod'];
             $border = 0;
             $limit = 0;
             $end = 3;
@@ -226,7 +248,7 @@ class CourseAllocationLetterController extends Controller
         include_once(app_path() . '/Classes/MBBitsPhpQrCode.php');
 
         $directory = "Allocation-Letters/PerStaff/";
-        $background_mb = public_path('assets/images/accreditation_letters/background_mb.png');
+//        $background_mb = public_path('assets/images/accreditation_letters/background_mb.png');
         $background_iy = public_path('assets/images/accreditation_letters/background_iy.png');
         $background_hak = public_path('assets/images/accreditation_letters/background_hak.png');
         $semester_text = [
@@ -235,10 +257,31 @@ class CourseAllocationLetterController extends Controller
             2=>'Second',
         ];
 
+        $academic_session_variables = [
+            '2018/2019' => [
+                'background' => $background_iy,
+                'date' => (new Carbon('2019-03-11'))->format('l, jS \\of F, Y'),
+                'hod' => 'Dr. Ibrahim Yusuf'
+            ],
+            '2019/2020' => [
+                'background' => $background_iy,
+                'date' => (new Carbon('2020-01-12'))->format('l, jS \\of F, Y'),
+                'hod' => 'Dr. Ibrahim Yusuf'
+            ],
+            '2020/2021' => [
+                'background' => $background_hak,
+                'date' => (new Carbon('2021-11-01'))->format('l, jS \\of F, Y'),
+                'hod' => 'Dr. Habeebah Adamu Kakudi'
+            ],
+        ];
+
         foreach ($allocations as $academic_session => $allocation) {
-            $date = (new Carbon('2021-10-01'))->format('l, jS \\of F, Y');
-            $background = $background_hak;
-            $hod = "Dr. Habeebah Adamu Kakudi";
+            //            $date = (new Carbon('2021-10-01'))->format('l, jS \\of F, Y');
+            $date = $academic_session_variables[$academic_session]['date'];
+//            $background = $background_hak;
+            $background = $academic_session_variables[$academic_session]['background'];
+//            $hod = "Dr. Habeebah Adamu Kakudi";
+            $hod = $academic_session_variables[$academic_session]['hod'];
 
             $border = 0;
             $limit = 0;
@@ -353,7 +396,7 @@ class CourseAllocationLetterController extends Controller
                 $pdf->SetTextColor(173, 216, 230);
                 $pdf->RotatedText(35, 240, $academic_session.' Session', 90);
                 $pdf->SetTextColor(0, 0, 0);
-            $file=str_replace(['/','P100'],'_',$academic_session."-".$staff['staff']['number'])."-Allocation-Letters.pdf";
+            $file=str_replace('/','_',$academic_session)."-".str_replace('100/','',$staff['staff']['number'])."-Allocation-Letters.pdf";
                 ob_get_clean();
 //            $pdf2 = $pdf;
             $pdf->Output($directory.$file, 'F');

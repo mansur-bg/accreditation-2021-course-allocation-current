@@ -192,7 +192,10 @@ class StaffController extends Controller
                     ->save(public_path('assets/photos/staff/' . $fileName));
 
                 $staff->update(['photo' => $fileName]);
-                session()->put('staff_photo', $fileName);
+
+    //                if($staff->staff_number == session('staff_number')){
+    //                    session()->put('staff_photo', $fileName);
+    //                }
 
                 $mbbits_message =
                     [
@@ -332,7 +335,10 @@ class StaffController extends Controller
 
     public function update(StaffRequest $request, \App\Models\Staff $staff){
 //        dd($staff->staff_name);
-        if($staff->update($request->validated())){
+//        $this->initials($data['name']);
+        $data = $request->validated();
+        $data['initials'] = $this->initials($data['name']);
+        if($staff->update($data)){
             $mbbits_message =
                 [
                     [

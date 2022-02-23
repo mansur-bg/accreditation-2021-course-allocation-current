@@ -27,6 +27,7 @@ class AppServiceProvider extends ServiceProvider
     {
 //        $registration_data_date = (new Carbon('2021-12-22 07:26:01'))->format('l, jS \\of F, Y @ H:i:s');
         $registration_data_date = (new Carbon('2021-12-29 03:40:49'))->format('l, jS \\of F, Y @ H:i:s');
+
         View::share('registration_data_date',$registration_data_date);
     }
 }

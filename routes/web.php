@@ -28,7 +28,7 @@ Route::get('/login', [App\Http\Controllers\Staff\LoginController::class, 'index'
 //Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
+Route::get('/table6', [App\Http\Controllers\AccreditationTableController::class, 'index'])->name('courses.index');
 
 Route::get('test-mail', function () {
     $details = [
